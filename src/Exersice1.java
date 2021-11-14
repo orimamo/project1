@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Excersice1
+public class Exersice1
 {
     public static void main(String[] args) {
         System.out.println("enter a number and I will tell you what is the Absolute value:");
@@ -9,7 +9,7 @@ public class Excersice1
         num = scanner.nextInt();
         if (num < 0)
         {
-            System.out.println("the Absolute value is :" + num * -1);
+            System.out.println("the Absolute value is :" + num * (-1));
         }
         else
         {

@@ -5,7 +5,8 @@ public class Exersice10 {
     public static void main(String[] args) {
         Random rand = new Random();
         Scanner scanner = new Scanner(System.in);
-        int randnum = rand.nextInt(1000);
+        int limit = 1000;
+        int randnum = rand.nextInt(limit + 1);
         int numOfGuess1 = 0;
         int numOfGuess2 = 0;
         System.out.println("the number is between 0 to 1000\nstart play!!!! ");
